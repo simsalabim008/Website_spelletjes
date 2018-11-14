@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="stijl.css">
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jcanvas/21.0.1/min/jcanvas.min.js"></script>
+    <script src="snake.js"></script>
 </head>
 <body>
     <main>
@@ -29,10 +32,11 @@
     <article>
         <h2>Snake</h2>
         <nav>
-            <button class="canv">Start</button>
-            <button class="canv">Stop</button>
+            <button class="canv" id="startSnake">Start</button>
+            <button class="canv" id="stopSnake">Stop</button>
         </nav>
-        <canvas></canvas>
+        <canvas id="mySnakeCanvas" height="360px" width="360px"></canvas>
+        <script></script>
         </article>
     </main>   
     <footer>
