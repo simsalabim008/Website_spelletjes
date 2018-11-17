@@ -12,8 +12,8 @@ main {
     position: static;
 }
 
-/*** Generiek voor legend, h2, aside, .pagetitle, .btn ***/
-legend, h2, aside, .pagetitle, .btn{
+/*** Generiek voor h2, aside, .pagetitle, .btn ***/
+h2, aside, .pagetitle, .btn{
     display: inline-block;
     color: rgb(8, 182, 8);
     font-size: larger;
@@ -77,8 +77,8 @@ aside {
 }
 
 /*** Titel menu ***/
-legend {
-    padding: 0.5em 0 0.5em 0.5em; 
+.btn-head {
+    padding: 0 0 0 0.25em; 
 }
 
 /*** Knoppen ***/
@@ -155,7 +155,7 @@ canvas, img {
 
 canvas {
     clear: left;
-    border: dotted thin #4db140;
+    border: dotted thin #4db140; 
     margin: 0 0 0.2em 0.2em;
     background-color: rgb(210, 250, 202);
 }
