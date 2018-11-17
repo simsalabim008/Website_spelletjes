@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl">
 <head>
     <title>Mijn spelletjessite</title>
     <meta charset="UTF-8">
@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="stijl.css">
     <script src="http://code.jquery.com/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jcanvas/21.0.1/min/jcanvas.min.js"></script>
-    <script src="snake.js"></script>
+    <script src="controller.js"></script>
+    <script src="snakeGame.js"></script>
 </head>
 <body>
     <main>
@@ -17,7 +18,7 @@
             <li><a href="snake.html">Snake</a></li>
         </ul>
     <aside>
-        <legend>Mijn spelletjes</legend>
+        <h2 id="btn-head">Mijn spelletjes</h2>
         <nav class="btn-group">
             <a href="index.html" class="btn"><span>Welkom</span></a>
             <a class="btn">Inloggen</a>
@@ -35,7 +36,7 @@
             <button class="canv" id="startSnake">Start</button>
             <button class="canv" id="stopSnake">Stop</button>
         </nav>
-        <canvas id="mySnakeCanvas" height="360px" width="360px"></canvas>
+        <canvas id="mySnakeCanvas" height="360" width="360"></canvas>
         <script></script>
         </article>
     </main>   
